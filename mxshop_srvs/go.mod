@@ -3,28 +3,29 @@ module mxshop_srvs
 go 1.15
 
 require (
+	github.com/HdrHistogram/hdrhistogram-go v1.1.0 // indirect
 	github.com/anaskhan96/go-password-encoder v0.0.0-20201010210601-c765b799fd72
-	github.com/armon/go-metrics v0.3.2 // indirect
-	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/apache/rocketmq-client-go/v2 v2.1.0
+	github.com/gin-gonic/gin v1.7.1
+	github.com/go-redis/redis/v8 v8.6.0
+	github.com/go-redsync/redsync/v4 v4.0.4
 	github.com/golang/protobuf v1.4.3
+	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/hashicorp/consul/api v1.3.0
-	github.com/hashicorp/go-immutable-radix v1.1.0 // indirect
-	github.com/hashicorp/go-multierror v1.1.0 // indirect
-	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
-	github.com/hashicorp/golang-lru v0.5.4 // indirect
-	github.com/hashicorp/serf v0.8.5 // indirect
-	github.com/kr/text v0.2.0 // indirect
-	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
-	github.com/olivere/elastic/v7 v7.0.32
+	github.com/mbobakov/grpc-consul-resolver v1.4.3
+	github.com/nacos-group/nacos-sdk-go v1.0.5
+	github.com/olivere/elastic/v7 v7.0.23
+	github.com/opentracing/opentracing-go v1.2.0
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.7.1
+	github.com/stretchr/testify v1.7.0
+	github.com/uber/jaeger-client-go v2.25.0+incompatible
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad // indirect
-	golang.org/x/tools v0.0.0-20201224043029-2b0845dc783e // indirect
+	golang.org/x/net v0.0.0-20201202161906-c7110b5ffcbb
 	google.golang.org/grpc v1.35.0
 	google.golang.org/protobuf v1.25.0
-	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
-	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gorm.io/driver/mysql v1.0.3
 	gorm.io/gorm v1.20.11
 )
