@@ -7,6 +7,7 @@
 grpc、 gin、gorm、redis、mysql、elasticsearch、rocketmq、nacos、consul、分布式锁、分布式事务、viper、jaeger、sentinel、yapi、幂等机制、kong、jenkins等  
 
 订单流程架构图：  
+![whiteboard_exported_image](https://github.com/user-attachments/assets/992e696e-6351-468d-9124-09d29c0599af)  
 
 
 系统架构图：  
