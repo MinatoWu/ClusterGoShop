@@ -11,7 +11,9 @@ grpc、 gin、gorm、redis、mysql、elasticsearch、rocketmq、nacos、consul�
 
 
 系统架构图：  
-![电商系统架构图](https://github.com/user-attachments/assets/0ed956a3-df59-4434-b2fb-362ff5022851)
+![电商系统架构图](https://github.com/user-attachments/assets/0ed956a3-df59-4434-b2fb-362ff5022851)  
+
+
 
 
 
